@@ -1,0 +1,267 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+     background-color:black;
+  }
+
+  li {
+    float: right;
+  }
+  li a,.dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  li a {
+    display: block;
+    font-family:'Montserrat',sans-serif,bold;
+    padding-right:20px;
+
+  }
+
+  li a:hover:not(.active) {
+    background-color: red;
+    color:white;
+    border-style:outset;
+    border-width:2px 2px 2px 2px;
+    border-color:grey;
+    /* border-top:10px solid brown; */
+
+  }
+
+  .dropbtn {
+    background-color: red;
+    position: relative;
+    left:100px;
+    top:-10px;
+  }
+
+   li.dropdown {
+    display: inline-block;
+  }
+
+  .dropdown-content {
+    /* display: ; */
+    display: none;
+    position: relative;
+     left:100px;
+    background-color:#333;
+    min-width: 160px;
+   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+
+  .dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+
+    .dropdown-content a:hover {background-color:red;}
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  @media screen and (max-width: 900px) {
+    ul.sidenav {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+
+    ul.sidenav li a {
+      float: left;
+      padding: 15px;
+    }
+
+    div.content {margin-left: 0;}
+  }
+
+  @media screen and (max-width: 400px) {
+    ul.sidenav li a {
+      text-align: center;
+      float: none;
+    }
+  }
+  .nav1
+  {
+    font-size: 30px;
+    font-family: 'Bebas Neue',bold;
+   font-weight:bolder;
+  }
+  /* <!--cover--> */
+
+  #cover
+  {
+    width:100%;
+    height:550px;
+    background-color:black;
+    padding:0% 15%;
+  }
+  .carousel-item {
+    padding: 3% 15%;
+    animation:moving 5s;
+  }
+
+  @keyframes moving{
+    from{top: 0px;}
+    to{top: 20px;
+    }
+  }
+
+
+.cover-text1,.cover-text2,.cover-text3
+{
+  font-size:65px;
+  color:white;
+  word-spacing:1.5;
+}
+
+h1 a{
+  color: black;
+  text-decoration: none !important;
+}
+h2{
+   text-align: center;
+   font-weight: 10px;
+   font-family:Arbutus;
+   color:Tomato
+}
+/* home page section id =web */
+#web{
+  padding-top: 30px;
+  font-size: 25px;
+  font-family:sans-serif;
+  /*display: inline-block;*/
+
+}
+
+.im1{
+  position:relative;
+  left:-100px;
+
+
+}
+.im2{
+  position:relative;
+  left:-100px;
+top:50px;
+
+}
+
+.p1{
+  text-align: center;
+  width:500px;
+  line-height: 2.0;
+  display: inline-block;
+  height:500px;
+  position:relative;
+  top:-400px;
+  padding-left: 30px;
+}
+.p2{
+  text-align: center;
+  width:500px;
+  line-height: 2.0;
+  display: inline-block;
+  height:550px;
+  position:relative;
+  top:-350px;
+  padding-left: 30px;
+}
+#app{
+  margin-top: -400px;
+  padding-top: 30px;
+  font-size: 25px;
+  font-family:sans-serif;
+}
+#blog{
+  margin-top: -400px;
+  padding-top: 30px;
+  font-size: 25px;
+  font-family:sans-serif;
+}
+#debate{
+  margin-top: -400px;
+  padding-top: 30px;
+  font-size: 25px;
+  font-family:sans-serif;
+}
+#presentation{
+  margin-top: -400px;
+  padding-top: 30px;
+  font-size: 25px;
+  font-family:sans-serif;
+}
+#online{
+  margin-top: -400px;
+  padding-top: 30px;
+  font-size: 25px;
+  font-family:sans-serif;
+}
+.p1 li
+{
+  background-color: white;
+}
+.p1 ul
+{
+  background-color: white;
+}
+/*footer*/
+#footer
+{
+  width:100%;
+  height:350px;
+  background-color:black;
+
+}
+#footer ul.social-icons li{
+  padding: 3px 0;
+  height:100px;
+  width:100px;
+  background-size: 100% 100%;
+  }
+  #footer ul.social-icons li a i {
+    margin-right: 5px;
+  font-size:55px;
+  -webkit-transition: .5s all ease;
+  -moz-transition: .5s all ease;
+  transition: .5s all ease;
+  }
+  #footer ul.social-icons li:hover a i {
+  font-size:90px;
+  margin-top:-10px;
+  }
+  #footer ul.social-icons li a
+  {
+  color:#ffffff;
+  }
+  #footer ul.social-icons li a:hover{
+  color:#eeeeee;
+  }
+
+  #footer ul li a:hover:not(.active) {
+    background-color:black;
+    box-shadow:none;
+  }
+  #footer ul.social-icons
+{
+position:relative;
+top:30px;
+left:-400px;
+}
+.copyline
+{
+  font-size:35px;
+  position:relative;
+  top:60px;
+}
